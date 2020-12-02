@@ -1,0 +1,209 @@
+.products {
+  margin: 5px  0;
+}
+
+.products .pro-item {
+  border: 1px solid #Dddddd;
+  margin: 5px 0;
+}
+
+.products .pro-item .pro-text {
+  margin-bottom: 15px;
+  padding: 15px;
+  text-align: center;
+}
+
+.products .pro-item .pro-text button {
+  background: #db2d2e;
+  color: #fff;
+  border-radius: 0;
+  font-weight: 500;
+  padding: 8px 20px;
+  margin: 10px 0;
+}
+
+.products .pro-item .pro-text button:hover {
+  background: #323232;
+}
+
+.products .pro-item .pro-ico i {
+  margin: 5px auto;
+  color: goldenrod;
+}
+
+.search {
+  margin: 10px 0;
+}
+
+.search button {
+  background: chocolate;
+  color: white;
+}
+
+.search button:hover {
+  background: #323232;
+}
+
+.recent-post {
+  margin: 5px 0;
+}
+
+.recent-post .recent-info a {
+  color: #Dddddd;
+}
+
+.cloud h5 {
+  margin: 15px 0;
+}
+
+.cloud li {
+  margin: 10px 0;
+}
+
+.cloud a {
+  color: rgba(97, 97, 97, 0.867);
+  border: 2px solid #DDDD;
+}
+
+.cloud a:hover {
+  background: crimson;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+#cars {
+  padding: 10px;
+}
+
+#cars .new-price {
+  color: crimson;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+#cars .request .request-car a {
+  background: transparent;
+  color: #bbbbbb;
+  border: 1px solid #e3e3e3;
+  padding: 10px 15px;
+  display: inline-block;
+}
+
+#cars .request .request-car a:hover {
+  background: crimson;
+  color: white;
+  -webkit-transition: .6s ease-in-out;
+  transition: .6s ease-in-out;
+}
+
+.slider {
+  position: relative;
+}
+
+.slider:hover .next-btn, .slider:hover .prev-btn {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+}
+
+.slider .next-btn {
+  position: absolute;
+  width: 28px;
+  top: 50%;
+  right: -2px;
+  z-index: 10;
+  opacity: 0;
+  -webkit-transform: translateX(-50px);
+          transform: translateX(-50px);
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+  border-radius: 50%;
+  background: white;
+}
+
+.slider .next-btn:hover {
+  background: crimson;
+}
+
+.slider .prev-btn {
+  position: absolute;
+  width: 28px;
+  top: 50%;
+  z-index: 10;
+  left: -2px;
+  opacity: 0;
+  -webkit-transform: translateX(50px);
+          transform: translateX(50px);
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+  border-radius: 50%;
+  background: white;
+}
+
+.slider .prev-btn:hover {
+  background: crimson;
+}
+
+.audi-compare {
+  border: 1px solid #dddddd;
+  padding: 14px 0;
+  margin: 25px 0;
+}
+
+.audi-compare .compare ul i {
+  margin-left: 5px;
+}
+
+.audi-compare .compare ul a {
+  color: #252525;
+}
+
+.audi-compare ul li i {
+  border: 1px;
+  font-weight: 900;
+  padding: 9px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background: crimson;
+  color: white;
+}
+
+.audi-compare ul li i:hover {
+  background: #363636;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+.car-information ul li {
+  display: block;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #e3e3e3;
+  margin-bottom: 5px;
+}
+
+.car-information ul li span {
+  font-weight: 400;
+  text-transform: none;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0;
+}
+
+.car-information ul li strong {
+  margin: 0 30px;
+  text-align: right;
+  vertical-align: top;
+}
+
+.tabs ul li {
+  margin: 0 10px;
+  font-weight: 800;
+}
+
+.tabs .tabs1 p {
+  font-weight: 500;
+  margin: 0 0 10px;
+}
+/*# sourceMappingURL=style.css.map */

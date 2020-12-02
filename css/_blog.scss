@@ -1,0 +1,30 @@
+.entry-title{
+    .entry-meta{
+        ul{
+        li{
+            a{
+                color: #dddddd;
+                display: block;
+                display: flex;
+            }
+        }
+        }
+    }
+}
+.cloud{
+    h5{
+        margin: 15px 0;
+    }
+    li{
+        margin: 10px 0;
+    }
+    a{
+      
+        color: rgba(97, 97, 97, 0.867);
+      border: 2px solid #DDDD ;
+      &:hover{
+          background: crimson;
+          transition: .3s ease-in-out;
+      }
+    }
+}

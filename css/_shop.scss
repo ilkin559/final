@@ -1,0 +1,74 @@
+
+.products{
+    margin: 5px  0;
+    .pro-item{
+    border: 1px solid#Dddddd;
+    margin: 5px 0;
+    
+        .pro-text{
+            margin-bottom: 15px;
+            padding: 15px;
+            text-align: center;
+            button{
+                background: #db2d2e;
+                 color: #fff;
+                 border-radius: 0;
+                 font-weight: 500;
+                 padding: 8px 20px;
+                 margin: 10px 0;
+                 &:hover{
+                     background: #323232;
+                 }
+            }
+          
+               
+               
+              
+    
+            
+        }
+       
+       
+        .pro-ico{
+            i{
+                margin: 5px auto;
+                color: goldenrod;
+            }
+        }
+    }
+}
+.search{
+    margin:10px 0;
+    button{
+        background: chocolate;
+        color: white;
+        &:hover{
+            background: #323232;
+        }
+    }
+}
+.recent-post{
+    margin: 5px 0;
+    .recent-info{
+   a{
+       color: #Dddddd;
+   }
+    }
+}
+.cloud{
+    h5{
+        margin: 15px 0;
+    }
+    li{
+        margin: 10px 0;
+    }
+    a{
+      
+        color: rgba(97, 97, 97, 0.867);
+      border: 2px solid #DDDD ;
+      &:hover{
+          background: crimson;
+          transition: .3s ease-in-out;
+      }
+    }
+}
